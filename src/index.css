@@ -2161,6 +2161,9 @@ footer {
     height: 180px;
   }
 }
-
-
-
+/* Custom Zoom Scale for Tablet & Mobile Viewports */
+@media (max-width: 1024px) {
+  body {
+    zoom: 0.8; /* Scales layout down to 80% on smaller screens */
+  }
+}
